@@ -1,0 +1,14 @@
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.csproj.CoreCompileInputs.cache
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\SendCommands.exe.config
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\SendCommands.exe
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\SendCommands.pdb
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\Newtonsoft.Json.dll
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\Newtonsoft.Json.xml
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.csproj.CopyComplete
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.exe
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.pdb
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\SendCommands.exe.manifest
+C:\Users\abulv\source\repos\SendCommands\SendCommands\bin\Debug\SendCommands.application
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.exe.manifest
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.application
+C:\Users\abulv\source\repos\SendCommands\SendCommands\obj\Debug\SendCommands.csprojAssemblyReference.cache

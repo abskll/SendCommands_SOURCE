@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SendCommands.exe" version="1.0.0.0" publicKeyToken="a005ca2559632317" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SendCommands" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SendCommands.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SendCommands.exe" size="23008">
+      <assemblyIdentity name="SendCommands" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dt8bi76AIcHjyYkqVrR6MOXzfibP3JaLkfyk/XM6Igg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SendCommands.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-JKQEUGUH\abulv" issuerKeyHash="4710045f8814808abc54ca1277626668c7763203" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GoRbGbFYHVl1UE2++B3uU2MSQaOu6RGwX8uo7P138mI=</DigestValue></Reference></SignedInfo><SignatureValue>DhY+/YiQ6C6uEhz67FkdSTCCvubv2WaD3UiWmLznb4LVjD1QNdTWYFexoNLMVgnObWZUjEkq1glnVaDXc5XDNuww73Muqg5x0k1a3jqmqtfs9FEPx+saARZPABsLwF5UOps2a25/CZU328KNe4lwpit6VckGUhB17gfguaOcyCo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0iQc1kWbxStlNIoQNR7SZRuIC8DDx8YwT1NpU+k0bAg3EvQp0kAJZZhizK6obA9m7FqjOr2mP5BvzDFxEERqK7NOsxuQX6NuYBlkfpgqwNNc1fJtFL5+3Xlz8U9iEGH17ICzAXmkx5LSEGZPIh2iF4mC0eQOluumhSKng+4SQIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="62f277fdeca8cb5fb011e9aea341126353ee1df8be4d5075591d58b1195b841a" Description="" Url=""><as:assemblyIdentity name="SendCommands.exe" version="1.0.0.0" publicKeyToken="a005ca2559632317" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-JKQEUGUH\abulv</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BdGhUzM8P61PCQWtrha0vu9jKe5nFVDF3Sh1tkwoTwk=</DigestValue></Reference></SignedInfo><SignatureValue>gww0+ZbFJAt2dfeIyNx8ztmIADxtsY6GdGU3miKBKjxLF3Z4bjw4f7mKGzG0RCCPvMVoW/7JDBScCTUHc4EJ3VaI+Us1CMcu8fYHdMA/Zv65dq/pYffZCRNDwcmmVc0XJnlQY/d3gGNfOAt3avW2BBM19fUhRd1iwzI/UcqlnqY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0iQc1kWbxStlNIoQNR7SZRuIC8DDx8YwT1NpU+k0bAg3EvQp0kAJZZhizK6obA9m7FqjOr2mP5BvzDFxEERqK7NOsxuQX6NuYBlkfpgqwNNc1fJtFL5+3Xlz8U9iEGH17ICzAXmkx5LSEGZPIh2iF4mC0eQOluumhSKng+4SQIE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRWhN4eErXYBM1xTkaYv7eDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBKAEsAUQBFAFUARwBVAEgAXABhAGIAdQBsAHYwHhcNMjEwMjA4MDExNTA5WhcNMjIwMjA4MDcxNTA5WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBKAEsAUQBFAFUARwBVAEgAXABhAGIAdQBsAHYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANIkHNZFm8UrZTSKEDUe0mUbiAvAw8fGME9TaVPpNGwINxL0KdJACWWYYsyuqGwPZuxaozq9pj+Qb8wxcRBEaiuzTrMbkF+jbmAZZH6YKsDTXNXybRS+ft15c/FPYhBh9eyAswF5pMeS0hBmTyIdoheJgtHkDpbrpoUip4PuEkCBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQgqA49VQrAbpaUa/ClIKtgtgrIIMz4Z+Ft1sDu5KoPga7tQCbR4O4NFSkG2rspaTmO4+EEopS4gOUdfY/aAt/ynAnwL+rskJMWDXId9K77OPT9devcchxQm5ndj0UE2tmlXFSjULdBM5tV0VWaukcRGY1Sf/lZ3IRWdap0JB9G0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
